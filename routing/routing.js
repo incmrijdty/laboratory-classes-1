@@ -3,7 +3,7 @@
 const { homeRouting } = require('./home');
 const { productRouting } = require('./product');
 const { logoutRouting } = require('./logout');
-const { STATUS_CODE } = require('../statusCode');
+const { STATUS_CODE } = require('../constants/statusCode');
 
 // 🏗 Stwórz tutaj funkcję 'requestRouting', która będzie obsługiwać zapytania HTTP.
 // Podpowiedź: const requestRouting = (request, response) => {

@@ -1,6 +1,6 @@
 // 📦 Zaimportuj moduły 'fs' oraz 'STATUS_CODE' do obsługi produktów.
 const fs = require('fs');
-const { STATUS_CODE } = require('../config');
+const { STATUS_CODE } = require('../constants/statusCode');
 
 // 🏗 Stwórz funkcję 'productRouting', która obsłuży żądania dotyczące produktów.
 function productRouting(url, method, response) {
